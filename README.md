@@ -1,4 +1,4 @@
-# 🧠 AI-Powered Personal Executive Assistant (n8n)
+# AI-Powered Personal Executive Assistant (n8n)
 
 An **AI-driven personal executive assistant** built using **n8n + LangChain**, capable of understanding natural language requests and safely executing actions across multiple productivity tools such as **Calendar, Email, Tasks, Notes, Weather, Search, Expenses, and Calculations**.
 
@@ -6,7 +6,7 @@ The system follows **agentic AI principles** with **tool orchestration**, **stat
 
 ---
 
-## ✨ Key Features
+## Key Features
 
 - Natural language interface via Webhook (API-first design)
 - LLM-powered intent detection and tool selection
@@ -19,39 +19,39 @@ The system follows **agentic AI principles** with **tool orchestration**, **stat
 
 ## 🧩 Supported Capabilities
 
-### 📅 Calendar Management
+### Calendar Management
 - Create calendar events  
 - Retrieve one or multiple events  
 - Delete events *(confirmation required)*  
 
-### 📧 Email (Gmail)
+### Email (Gmail)
 - Send emails  
 - Read recent emails  
 
-### ✅ Task Management
+### Task Management
 - Create tasks  
 - List tasks  
 - Delete completed tasks *(confirmation required)*  
 
-### 📝 Notes & Documents
+### Notes & Documents
 - Create Google Docs  
 - Append content without overwriting  
 - Read existing documents  
 
-### 💰 Expense Tracking
+### Expense Tracking
 - Log expenses into Google Sheets  
 - Retrieve expense records  
 - Perform calculations on expense data  
 
-### 🌦 Weather Information
+### Weather Information
 - Fetch real-time weather by city  
 - Returns temperature, conditions, and visibility  
 
-### 🔍 Search & Information
+### Search & Information
 - Web search for facts, news, and general queries  
 - Concise summarized answers  
 
-### ➗ Calculator
+### Calculator
 - Accurate numeric calculations  
 - Returns final value only  
 
@@ -73,7 +73,7 @@ Response Formatter
 ↓
 Webhook Response
 
-## 🔐 Safety & Control Mechanisms
+## Safety & Control Mechanisms
 
 - Confirmation required for:
   - Deleting calendar events
@@ -85,7 +85,7 @@ Webhook Response
 
 
 
-## ⚙️ Tech Stack
+## Tech Stack
 
 - **Workflow Automation:** n8n  
 - **LLM Orchestration:** LangChain Agent  
